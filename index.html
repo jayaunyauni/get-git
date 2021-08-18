@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>learning" bootstrap</title>
+    <title>learning bootstrap</title>
 </head>
 
 <body>
@@ -38,45 +38,57 @@
 
     </nav>
     <header class="jumbotron">
+     
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>Ristornate con Fusion</h1>
-                    <p>We take inspiraton from the world best cuisins,and create a fusion experience.our lipsmacking
-                        creations will tickle your cullinary sense!</p>
+                    <h1>Ristorante con Fusion</h1>
+                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
+                        lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
+                <div class="col-12 col-sm-6 align-self-center">
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                            <img src="img/logo.png" class="image-fluid">
+                            
+                        </div>
+                        <div class="col-12 col-sm-6 align-self-center">
+                            <a class="btn btn-warning btn-lg btn-block" href="#Reserve-table" role="button">Reserve
+                                Table</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <div class="container">
         <div class="row row-content align-items-center">
-            <div class="col-12 col-sm-4 order-sm-last col-md-3">
+            <div class="col-12 col-sm-4 order-sm-last col-md-2">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
-            <div class="col col-sm order-sm-first col-md">
+            <div class="col col-sm order-sm-first col-md-8">
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/uthappizza.png" alt="uthappizza">
                     <div class="media-body">
-                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span class="badge badge-pill badge-secondary">$4.99</span></h2>
-                        <p class="d-none d-sm-block">A unique combination of indian uthappam (pancake) and pizza, topped
-                            with cerignola olives ,ripe vine cherrytomatoes vidalla onion ,guntur chillies and buffalo
-                            paneer.</p>
+                        <h2 class="mt-0">Uthappizza <span class="badge badge-danger">HOT</span> <span
+                                class="badge badge-pill badge-secondary">$4.99</span></h2>
+                        <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3">
-                <h3>This month's Promotion</h3>
+                <h3>This Month's Promotions</h3>
             </div>
-            <div class="col col-sm col-md">
-                <h2>Weekand Grand BUffet</h2>
-                <p> Featuring mouthwatring combination with a choice >A unique combination of indian uthappam (pancake)
-                    and pizza, topped with cerignola olives ,ripe vine cherry tomatoes vidalla onion ,guntur chillies
-                    and buffalo paneer.</p>
+            <div class="col-sm col-md">
+                <div class="media">
+                    <div class="media-body">
+                        <h2 class="mt-0" >Weekand Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                        <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p></p>
+                    </div>
+                    <img class="img-thumbnail align-self-center " src="img/buffet.png" alt="buffet">
+                </div>
             </div>
         </div>
         <div class="row row-content align-items-center">
@@ -89,10 +101,68 @@
                     <div class="media-body">
                         <h2 class="mt-0">Alberto Somaya</h2>
                         <h4>Excecutative chef</h4>
-                        <p>Awqard winning three-star Michlen chef with width his emplyoee >A unique combination of
-                            indian uthappam (pancake) and pizza, topped with cerignola olives ,ripe vine cherry tomatoes
-                            vidalla onion ,guntur chillies and buffalo paneer.</p>
+                        <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences.</p>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row row-content">
+        <div class="offset-md-2 col-md-8 offset-md-2" id="Reserve-table" >
+            <div class="card">
+                <h3 class=" card-header bg-warning text-white"> Reserve a table</h3>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group row">
+                            <label for="guest" class="col-md-2 col-form-label">Number of Guests</label>
+                            <div class="col-12 col-md-10 align-upside" id="guests">
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio1" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">3</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">4</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">5</label>
+                                </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                        id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">6</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="timing" class="col-md-2 col-form-label">Date and Time</label>
+                            <div class="col-12 col-md-3">
+                                <input type="text" type="form-control" id="timing" placeholder="Date" name="date">
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <input type="text" type="form-control" id="timing" placeholder="Time" name="time">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="offset-md-2 col-md-10">
+                                <button type="submit" class=" btn btn-primary text-white">Reserve</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -112,8 +182,8 @@
                 <div class="col-7 col-sm-5">
                     <h5>Our address</h5>
                     <address>
-                        121,clear water bay road<br>
-                        clear water bay, kowloon<br>
+                        121,Clear Water Bay Road<br>
+                        Clear Water Bay, Kowloon<br>
                         HONG KONG<br>
                         <i class="fa fa-phone fa-lg"></i>:765737573<br>
                         <i class="fa fa-envelope fa-lg"></i>: <a href="abc@gmail.com"></a>
